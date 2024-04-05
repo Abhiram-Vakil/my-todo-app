@@ -53,7 +53,6 @@ function App() {
 
   //DELETE
   const deleteTodo = async (id) =>{
-    e.preventDefault(e)
     await deleteDoc(doc(db,'todo',id))
   }
 
